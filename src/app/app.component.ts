@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ReceiptManagerService } from 'src/services/receipt-manager.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'cdcd';
+  constructor(private serialService : ReceiptManagerService){
+
+  }
 }

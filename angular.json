@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/cdcd",
+            "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "cdcd"
+    }
+  },
+  "defaultProject": "cdcd",
+  "cli": {
+    "analytics": "c534180d-f54a-426f-8303-cd44bed9d4f0"
+  }
 }
