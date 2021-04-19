@@ -27,7 +27,7 @@
     "@angular/platform-browser": "~9.1.6",
     "@angular/platform-browser-dynamic": "~9.1.6",
     "@angular/router": "~9.1.6",
-    "electron": "^8.2.5",
+    "electron": "^9.4.0",
     "electron-rebuild": "^1.10.1",
     "rxjs": "~6.5.4",
     "serialport": "^9.0.0",
